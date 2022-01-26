@@ -38,7 +38,7 @@ export default function Skills() {
                     </div>
                 </div>
             </div> 
-            <a href="#cv">
+            <a href="#contact">
                 <img src="assets/down.png"  className="arrow-bottom2" alt="" />
             </a>
         </div>
