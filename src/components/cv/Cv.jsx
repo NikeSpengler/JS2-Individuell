@@ -25,8 +25,8 @@ export default function Cv() {
                     </div>
                 </div>
             </div>
-            <a href="#about">
-                <img src="assets/down.png" className="arrow-bottom" alt="" />
+            <a href="#skills">
+                <img src="assets/down.png" className="arrow-bottom2" alt="" />
             </a>
             <img src="assets/down.png" className="arrow left" alt="" />
             <img src="assets/down.png" className="arrow right" alt="" />

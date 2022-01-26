@@ -21,7 +21,7 @@ export default function About() {
                 </div>
             </div> 
             <a href="#cv">
-                <img src="assets/down.png"  className="arrow-bottom2" alt="" />
+                <img src="assets/down.png" className="arrow-bottom1" alt="" />
             </a>
         </div>
     )
