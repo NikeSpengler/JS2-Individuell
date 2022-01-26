@@ -10,7 +10,6 @@ export default function About() {
                             <div className="leftContainer">
                                 <p className="title">About</p>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe nisi molestias vitae consequatur culpa fugit maiores labore! Dolorem, harum sunt accusantium quisquam consequatur earum ullam illo facere, aut dicta dolorum.</p>
-                                
                             </div>
                         </div>
                         <div className="right">

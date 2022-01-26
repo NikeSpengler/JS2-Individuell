@@ -15,7 +15,7 @@
 
     @keyframes arrowBlink {
       100% {
-        opacity: 0; //efter 2 sekunder blir opasiteten 0
+        opacity: 0; //animering/loop av pil, efter 2 sekunder blir opasiteten 0
       }
     }
   }
