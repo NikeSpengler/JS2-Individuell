@@ -1,0 +1,82 @@
+@import "../../global.scss";
+
+.skills {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .arrow-bottom2 {
+    position: absolute;
+    align-items: center;
+    bottom: 10px;
+    width: 30px;
+    animation: arrowBlink 2s infinite;
+
+    @keyframes arrowBlink {
+      100% {
+        opacity: 0; //efter 2 sekunder blir opasiteten 0
+      }
+    }
+  }
+
+  .box {
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 0;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        background-color: #333;
+        color: whitesmoke;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+          flex: 6;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            font-size: 18px;
+            font-weight: 300;
+
+            .title {
+              font-weight: 400;
+              margin-bottom: 5px;
+            }
+          }
+        }
+        .right {
+          flex: 6;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .rightContainer {
+            font-size: 18px;
+            font-weight: 300;
+
+            .title {
+              font-weight: 400;
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

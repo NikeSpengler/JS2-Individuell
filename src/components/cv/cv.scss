@@ -1,0 +1,100 @@
+.cv {
+  background-color: whitesmoke;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+    &.left {
+      left: 100px;
+      transform: rotateZ(90deg);
+    }
+
+    &.right {
+      right: 100px;
+      transform: rotateZ(-90deg);
+    }
+  }
+
+  .arrow-bottom {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+    width: 30px;
+    animation: arrowBlink 2s infinite;
+
+    @keyframes arrowBlink {
+      100% {
+        opacity: 0; //efter 2 sekunder blir opasiteten 0
+      }
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        background-color: lightgray;
+        // border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .p {
+          font-size: 12px;
+        }
+
+        .left {
+          flex: 6;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+          }
+        }
+        .right {
+          flex: 6;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .rightContainer {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}
