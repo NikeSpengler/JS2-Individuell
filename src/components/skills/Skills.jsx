@@ -6,7 +6,6 @@ export default function Skills() {
             <div className="box">
                 <div className="container">
                     <div className="item">
-                    {/* <p className="title-CV">CV</p>   */}
                         <div className="left">
                             <div className="leftContainer">
                                 <p className="title">Languages</p>
@@ -39,7 +38,7 @@ export default function Skills() {
                 </div>
             </div> 
             <a href="#contact">
-                <img src="assets/down.png"  className="arrow-bottom3" alt="" />
+                <img src="assets/down.png" className="arrow-bottom3" alt="" />
             </a>
         </div>
     )

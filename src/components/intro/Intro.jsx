@@ -29,10 +29,10 @@ export default function Intro() {
                     <h2>Frontend Developer</h2>
                     <h3>& <span ref={textRef}></span></h3><br />
                 </div>
-                <a href="#about">
-                    <img src="assets/down.png" className="arrow-bottom"alt="" />
-                </a>
             </div>
+            <a href="#about">
+                <img src="assets/down.png" className="arrow-bottom" alt="" />
+            </a>
         </div>
     )
 }

@@ -69,20 +69,20 @@
         }
       }
     }
-    .arrow-bottom {
-      position: absolute;
-      align-items: center;
-      bottom: 10px;
+  }
+  .arrow-bottom {
+    position: absolute;
+    align-items: center;
+    bottom: 10px;
 
-      img {
-        width: 30px;
-        animation: arrowBlink 2s infinite;
-      }
+    img {
+      width: 30px;
+      animation: arrowBlink 2s infinite;
+    }
 
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0; //efter 2 sekunder blir opasiteten 0
-        }
+    @keyframes arrowBlink {
+      100% {
+        opacity: 0; //efter 2 sekunder blir opasiteten 0
       }
     }
   }
