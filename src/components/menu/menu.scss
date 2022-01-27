@@ -24,7 +24,7 @@
     list-style: none;
     font-size: 30px;
     font-weight: 300;
-    color: white;
+    color: whitesmoke;
     width: 60%;
 
     li {
@@ -36,8 +36,12 @@
       }
 
       &:hover {
-        font-weight: 400;
-        color: #541212;
+        font-weight: 300;
+        // color: #541212;
+        // color: lightgoldenrodyellow;
+        // color: lightpink;
+        // color: #fcd1d1;
+        color: #fbaccc;
       }
     }
   }

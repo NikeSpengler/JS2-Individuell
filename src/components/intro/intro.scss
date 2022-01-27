@@ -10,7 +10,7 @@
     .imgContainer {
       width: 500px;
       height: 500px;
-      background-color: #d5d5d5;
+      background-color: #9ebee4;
       // background-color: #ffb5b5;
       /*background-color: #d3e4cd;*/
       border-radius: 50%;
@@ -18,9 +18,10 @@
       align-items: flex-end;
       justify-content: center;
       float: right;
+      margin-top: 40px;
 
       img {
-        height: 90%;
+        height: 100%;
       }
     }
   }
@@ -52,6 +53,7 @@
         span {
           font-size: inherit;
           color: darkred;
+          // color: #541212;
         }
 
         .typed-curser {

@@ -75,6 +75,7 @@ export default function Cv() {
             </a>
             <img src="assets/down.png" className="arrow left" alt="" onClick={()=> handleClick("left")} />
             <img src="assets/down.png" className="arrow right" alt="" onClick={()=> handleClick()} />
+            
         </div>
     );
 }
