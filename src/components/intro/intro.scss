@@ -11,6 +11,8 @@
       width: 500px;
       height: 500px;
       background-color: #9ebee4;
+      // background-color: lightgoldenrodyellow;
+      opacity: 80%;
       // background-color: #ffb5b5;
       /*background-color: #d3e4cd;*/
       border-radius: 50%;
@@ -22,6 +24,7 @@
 
       img {
         height: 100%;
+        opacity: 100%;
       }
     }
   }
