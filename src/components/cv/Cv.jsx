@@ -6,32 +6,32 @@ export default function Cv() {
     const data = [
         {
             id: "1",
-            title: "Utbilning",
+            title: "Education",
             year1: "2021-2023",
             year2: "2017",
             year3: "2010-2015",
             desc1: "KYH, Frontend Developer",
-            desc2: "Grafisk Design för webben, HKR",
+            desc2: "Graphic Design for webb, HKR",
             desc3: "Konstfack, GDI KA",
         },
         {
             id: "2",
-            title: "Arbete",
+            title: "Work",
             year1: "2015-pågående",
             year2: "2014-2020",
             year3: "2016-2019",
-            desc1: "Frilansande grafisk formgivare",
-            desc2: "Postmuseum, musievärd",
-            desc3: "Norbergfestivalen, ljud och ljus",
+            desc1: "Freelance Graphic Designer",
+            desc2: "Postmuseum, host",
+            desc3: "Norbergfestivalen, sound & light",
         },
         {
             id: "3",
-            title: "Praktik & Stipendium",
+            title: "Interns & Scholorship",
             year1: "2012",
             year2: "2012",
             year3: "2010",
-            desc1: "Torafu Arcitects Tokyo, praktikant",
-            desc2: "Sasakawa Foundation, utbytestermin",
+            desc1: "Torafu Arcitects Tokyo, intern",
+            desc2: "Sasakawa Foundation, exchange",
             desc3: "Grafikens hus, recedency",
         },
     ];
@@ -70,9 +70,9 @@ export default function Cv() {
                 </div>
                 ))}
             </div>
-            <a href="#skills">
+            {/* <a href="#skills">
                 <img src="assets/down.png" className="arrow-bottom2" alt="" />
-            </a>
+            </a> */}
             <img src="assets/down.png" className="arrow left" alt="" onClick={()=> handleClick("left")} />
             <img src="assets/down.png" className="arrow right" alt="" onClick={()=> handleClick()} />
             

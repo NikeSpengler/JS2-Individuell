@@ -13,7 +13,7 @@ export default function About() {
                                 <br />
                                 <br />
                                 <p className="title">Goals</p>
-                                <p>I’m a Stockholm based front-end developer with graphic design experience, often from working in close collaboration with clients. The last few years I’ve shifted from graphic design towards web development which I’ve become rather passionate about. </p>
+                                <p>What drives me forward is that the industry is constantly evolving, which means that I too can and need to develop. It's both exciting and fun. </p>
                             </div>
                         </div>
                         <div className="right">
@@ -24,9 +24,9 @@ export default function About() {
                     </div>
                 </div>
             </div> 
-            <a href="#cv">
+            {/* <a href="#cv">
                 <img src="assets/down.png" className="arrow-bottom1" alt="" />
-            </a>
+            </a> */}
         </div>
     )
 }

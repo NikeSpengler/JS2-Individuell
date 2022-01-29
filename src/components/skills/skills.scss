@@ -6,19 +6,19 @@
   align-items: center;
   justify-content: center;
 
-  .arrow-bottom3 {
-    position: absolute;
-    align-items: center;
-    bottom: 10px;
-    width: 30px;
-    animation: arrowBlink 2s infinite;
+  // .arrow-bottom3 {
+  //   position: absolute;
+  //   align-items: center;
+  //   bottom: 10px;
+  //   width: 30px;
+  //   animation: arrowBlink 2s infinite;
 
-    @keyframes arrowBlink {
-      100% {
-        opacity: 0; //efter 2 sekunder blir opasiteten 0
-      }
-    }
-  }
+  //   @keyframes arrowBlink {
+  //     100% {
+  //       opacity: 0; //efter 2 sekunder blir opasiteten 0
+  //     }
+  //   }
+  // }
 
   .box {
     height: 500px;
@@ -54,6 +54,10 @@
             line-height: 25px;
             letter-spacing: 1px;
 
+            @include mobile {
+              font-size: 16px;
+            }
+
             .title {
               font-weight: 400;
               margin-bottom: 5px;
@@ -72,6 +76,10 @@
             font-weight: 300;
             line-height: 25px;
             letter-spacing: 1px;
+
+            @include mobile {
+              font-size: 16px;
+            }
 
             .title {
               font-weight: 400;

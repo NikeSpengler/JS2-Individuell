@@ -6,25 +6,30 @@
   align-items: center;
   justify-content: center;
 
-  .arrow-bottom1 {
-    position: absolute;
-    align-items: center;
-    bottom: 10px;
-    width: 30px;
-    animation: arrowBlink 2s infinite;
+  // pågående pil i botten av var del
+  // .arrow-bottom1 {
+  //   position: absolute;
+  //   align-items: center;
+  //   bottom: 10px;
+  //   width: 30px;
+  //   animation: arrowBlink 2s infinite;
 
-    @keyframes arrowBlink {
-      100% {
-        opacity: 0; //animering/loop av pil, efter 2 sekunder blir opasiteten 0
-      }
-    }
-  }
+  //   @keyframes arrowBlink {
+  //     100% {
+  //       opacity: 0; //animering/loop av pil, efter 2 sekunder blir opasiteten 0
+  //     }
+  //   }
+  // }
 
   .box {
     height: 500px;
     display: flex;
     position: absolute;
     left: 0;
+
+    @include mobile {
+      height: 620px;
+    }
 
     .container {
       width: 100vw;
@@ -36,7 +41,8 @@
         width: 700px;
         height: 100%;
         background-color: whitesmoke;
-        color: #66806a;
+        // color: #66806a;
+        color: #064635;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -57,6 +63,10 @@
             line-height: 25px;
             letter-spacing: 1px;
             padding: 20px;
+
+            @include mobile {
+              font-size: 15px;
+            }
 
             .title {
               font-weight: 400;
