@@ -9,7 +9,7 @@ export default function About() {
                         <div className="left">
                             <div className="leftContainer">
                                 {/* <p className="title">About</p> */}
-                                <p>I’m a Stockholm based Frontend Developer with graphic design experience, often from working in close collaboration with clients. The last few years I’ve shifted from graphic design towards web development which I’ve become rather passionate about. I’m drawn to working with data structures, developing playful visual aesthetics and creating intuitive functionality.</p>
+                                <p>I’m a Stockholm based frontend developer with graphic design experience, often from working in close collaboration with clients. The last few years I’ve shifted from graphic design towards web development which I’ve become rather passionate about. I’m drawn to working with data structures, developing playful visual aesthetics and creating intuitive functionality.</p>
                                 <br />
                                 <br />
                                 <p className="title">Goals</p>

@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div className='contact' id="contact">
             <div className="left">
-                <img src="assets/mail4.png" height="400px" alt="" />
+                <img src="assets/mail4.png" height="350px" className="contact"/>
             </div>
             <div className="right">
                 <h2>Contact me!</h2>

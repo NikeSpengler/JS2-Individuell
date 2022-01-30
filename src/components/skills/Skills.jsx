@@ -12,7 +12,7 @@ export default function Skills() {
                                 <p>CSS</p>
                                 <p>Html 5</p>
                                 <p>JavaScript ES6</p>
-                                <p>TypeScript</p> <br /> <br /> <br />
+                                <p>SASS</p> <br /> <br /> <br />
                                 <p className="title">Frameworks/ Libraries</p>
                                 <p>Elevntry</p>
                                 <p>Flutter</p>

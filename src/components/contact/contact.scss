@@ -16,11 +16,11 @@
     align-items: center;
     justify-content: center;
 
-    .img {
-      height: 100%;
+    img .contact {
+      height: 400px;
 
       @include mobile {
-        width: 250px;
+        height: 250px;
       }
     }
   }
@@ -46,6 +46,7 @@
       @include mobile {
         font-size: 25px;
         font-weight: 400;
+        padding-bottom: 5px;
         overflow: hidden;
       }
     }
