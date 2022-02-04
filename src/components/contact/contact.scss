@@ -9,12 +9,35 @@
   }
 
   .left {
-    flex: 8;
+    flex: 1;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    h1 {
+      width: 50%;
+      color: #f54748;
+      margin-bottom: 10px;
+    }
+
+    p {
+      width: 50%;
+      color: #333;
+      letter-spacing: 0.2px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      width: 50%;
+      list-style-type: none;
+      margin-bottom: 5px;
+
+      a {
+        color: #333;
+      }
+    }
 
     img .contact {
       height: 400px;
@@ -26,84 +49,44 @@
   }
 
   .right {
-    flex: 4;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 40px;
 
-    @include mobile {
-      align-items: center;
-      margin-bottom: 40px;
-      overflow: hidden;
-    }
+    form {
+      margin-top: 20px;
 
-    h2 {
-      font-size: 30px;
-      font-weight: 400;
-      color: #66806a;
-
-      @include mobile {
-        font-size: 25px;
-        font-weight: 400;
-        padding-bottom: 5px;
-        overflow: hidden;
-      }
-    }
-
-    li {
-      list-style: none;
-      font-size: 18px;
-      font-weight: 400;
-      letter-spacing: 1px;
-      line-height: 30px;
-      color: #66806a;
-
-      @include mobile {
-        font-size: 15px;
-        overflow: hidden;
+      input {
+        width: 50%;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        padding-left: 12px;
       }
 
-      a {
-        text-decoration: none;
-        color: #66806a;
+      textarea {
+        width: 50%;
+        height: 70px;
+        border: none;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        padding-left: 12px;
+        padding-top: 12px;
       }
 
-      a:hover {
-        // color: #c84b31;
-        color: #f54748;
+      button {
+        border: none;
+        padding: 12px 40px;
+        border-radius: 20px;
+        background-color: #f54748;
+        color: white;
+        cursor: pointer;
       }
     }
   }
 }
-
-// form {
-//   width: 70%;
-//   height: 70%;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-
-//   input {
-//     width: 300px;
-//     height: 30px;
-//     font-size: 14px;
-//   }
-
-//   textarea {
-//     width: 300px;
-//   }
-// }
-
-//  /* <div className="itemContainer">
-//                       <Person className="icon"/>
-//                       <span>+73 680 66 24</span>
-//                   </div>
-//                   <div className="itemContainer">
-//                       <Mail className="icon"/>
-//                       <span>spengler.nike@gmail.com</span>
-//                   </div>
-
-// import {Person, Mail} from "@material-ui/icons"
-// import { FaBeer } from 'react-icons/fa';
